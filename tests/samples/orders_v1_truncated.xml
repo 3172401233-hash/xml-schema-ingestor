@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="urn:supplier:orders:v1">
+  <order>
+    <orderNo>SO-2001</orderNo>
+    <customer><name>Initech</name></customer>
+    <totalAmount>99.99</totalAmount>
+    <currency>CNY</currency>
+    <item>
+      <lineNo>1</lineNo>
+      <sku>SKU-D4</sku>
+      <name>Sprocket</name>
+      <qty>1</qty>
+      <unitPrice>99.99</unitPrice>
+    </item>
+    <payment>
+      <method>CASH</method>
+      <amount>99.99</amount>
+    </payment>
+  </order>
+  <order>
+    <orderNo>SO-2002</orderNo>
+    <customer><name>Umbre

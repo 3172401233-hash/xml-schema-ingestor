@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="urn:supplier:orders:v1">
+  <order>
+    <orderNo>SO-1001</orderNo>
+    <customer><name>Acme &amp; Co</name></customer>
+    <totalAmount>125.50</totalAmount>
+    <currency>CNY</currency>
+    <item>
+      <lineNo>1</lineNo>
+      <sku>SKU-A1</sku>
+      <name>Widget &lt;Pro&gt;</name>
+      <qty>2</qty>
+      <unitPrice>50.00</unitPrice>
+    </item>
+    <payment>
+      <method>CARD</method>
+      <amount>125.50</amount>
+    </payment>
+  </order>
+  <!-- same order node repeated in the same daily feed -->
+  <order>
+    <orderNo>SO-1001</orderNo>
+    <customer><name>Acme &amp; Co</name></customer>
+    <totalAmount>125.50</totalAmount>
+    <currency>CNY</currency>
+    <item>
+      <lineNo>1</lineNo>
+      <sku>SKU-A1</sku>
+      <name>Widget &lt;Pro&gt;</name>
+      <qty>2</qty>
+      <unitPrice>50.00</unitPrice>
+    </item>
+    <payment>
+      <method>CARD</method>
+      <amount>125.50</amount>
+    </payment>
+  </order>
+</orders>

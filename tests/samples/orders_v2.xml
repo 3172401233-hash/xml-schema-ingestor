@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="urn:supplier:orders:v2">
+  <order id="SO-9001" currency="EUR">
+    <buyer company="Stark Industries" />
+    <total>240.00</total>
+    <line seq="10" sku="SKU-V2-1">
+      <desc>Reactor &amp; Coil</desc>
+      <quantity>1</quantity>
+      <price>200.00</price>
+    </line>
+    <line seq="20" sku="SKU-V2-2">
+      <desc>Cable</desc>
+      <quantity>4</quantity>
+      <price>10.00</price>
+    </line>
+    <payment channel="WIRE">
+      <paidAmount>240.00</paidAmount>
+    </payment>
+  </order>
+  <order id="SO-9002" currency="JPY">
+    <buyer company="Wayne Enterprises" />
+    <total>3200</total>
+    <line seq="10" sku="SKU-V2-3">
+      <desc>Batarang</desc>
+      <quantity>8</quantity>
+      <price>400</price>
+    </line>
+  </order>
+</orders>

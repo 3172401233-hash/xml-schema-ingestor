@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="urn:supplier:orders:v1">
+  <order>
+    <orderNo>SO-3001</orderNo>
+    <customer><name>Hooli</name></customer>
+    <totalAmount>10.00</totalAmount>
+    <currency>CNY</currency>
+    <item>
+      <lineNo>1</lineNo>
+      <sku>SKU-E5</sku>
+      <name>Pipe</name>
+      <qty>1</qty>
+      <unitPrice>10.00</unitPrice>
+    </item>
+  </order>
+</orders>
+GARBAGE-TRAILER-WITHOUT-ROOT &amp; unterminated
